@@ -1,0 +1,30 @@
+# .dockerignore
+
+# Exclude version control directories and files
+.git
+.gitignore
+
+# Exclude database data and migrations
+.dbdata/
+
+# Exclude specific directories
+admin/
+products/
+
+# Exclude Docker-related files
+Dockerfile
+docker-compose.yml
+
+# Exclude Django-specific files
+manage.py
+__pycache__
+
+# Exclude development and system files
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.log
+*.env
+*.vscode/

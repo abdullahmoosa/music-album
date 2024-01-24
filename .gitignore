@@ -1,3 +1,6 @@
+# Ignore database data
+.dbdata/
+db.session.sql
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
